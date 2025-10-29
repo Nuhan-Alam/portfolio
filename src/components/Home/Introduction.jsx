@@ -1,6 +1,6 @@
 
 import LanguageLevel from "./LanguageLevel";
-import Skills from "./skills";
+import Skills from "./Skills";
 
 const Introduction = () => {
 
