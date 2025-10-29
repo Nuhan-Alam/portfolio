@@ -1,5 +1,5 @@
 import React from 'react';
-import PortfolioCard from '../components/Home/portfolioCard';
+import PortfolioCard from '../components/Home/PortfolioCard';
 import HomeDetails from '../components/Home/HomeDetails';
 const Home = () => {
     return (
