@@ -9,9 +9,12 @@ const Home = () => {
             backgroundImage:`url(https://giffiles.alphacoders.com/935/9356.gif)`,
         }}/>
         <div className="fixed inset-0 bg-black/95 z-0"></div>
-        <div className='relative z-10'>
+        <div className='relative z-10 min-w-full flex flex-col justify-center items-center lg:justify-end lg:items-end'>
                 <PortfolioCard/>
-                <HomeDetails/>
+                <div className='w-full md:w-4/5 '>
+                    <HomeDetails/>
+                </div>
+                
             </div>
         </div>
        

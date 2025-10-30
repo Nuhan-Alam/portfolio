@@ -4,9 +4,10 @@ import { SiLeetcode } from "react-icons/si";
 
 const PortfolioCard = () => {
     return (
-          <div className="relative md:fixed top-2 left-0 md:left-12 rounded-2xl bg-gradient-to-tr from-gray-800 to-gray-900 p-2 md:p-8 mx-2 md:mx-0 flex flex-col items-center max-w-md">
+          <div className="relative lg:fixed top-0.5 bottom-0.5  left-0 md:left-12  my-3 rounded-2xl bg-gradient-to-tr from-gray-800 to-gray-900 p-2 md:p-5 md:mx-0 flex flex-col items-center  w-full md:w-1/3 lg:w-1/4">
+      <div className="flex flex-col justify-center items-center gap-4">
       {/* Heading Section */}
-      <div className="flex justify-center items-center gap-5 w-full mb-8">
+      <div className="flex justify-center items-center gap-5 w-full mb-3">
         <img 
           src="https://wpriverthemes.com/jayden/wp-content/themes/jayden/images/logo/logo-1.svg" 
           alt="Logo"
@@ -22,11 +23,11 @@ const PortfolioCard = () => {
 
       {/* Avatar Section */}
       <div className=" mb-3 relative">
-        <div className="w-64 h-64 relative mb-4">
+        <div className="w-auto relative mb-4">
           <img 
             src="https://res.cloudinary.com/dbgsrmvgi/image/upload/v1760707689/photo_2025-10-17_19-27-57_ktr5jy.jpg" 
             alt="Avatar"
-            className="w-full h-full object-cover rounded-lg"
+            className="w-auto object-cover rounded-lg"
           />
         </div>
         <img 
@@ -35,10 +36,10 @@ const PortfolioCard = () => {
           className="absolute bottom-0 right-17 w-36 h-auto"
         />
       </div>
-
-      {/* Info Section */}
-      <div className="text-center mb-6">
-        <h6 className="text-2xl tracking-wide font-semibold text-white mb-2">
+      
+        {/* Info Section */}
+      <div className="text-center gap-5">
+        <h6 className="text-2xl tracking-wide font-semibold text-white">
           nuhanalam@gmail.com
         </h6>
         <div className="tracking-wide text-sm text-white">
@@ -47,7 +48,7 @@ const PortfolioCard = () => {
       </div>
 
       {/* Social Links */}
-      <ul className="flex justify-center gap-4 mb-8">
+      <ul className="flex justify-center gap-4">
         {/* LinkedIN */}
         <li>
           <a 
@@ -112,6 +113,8 @@ const PortfolioCard = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 17L17 7M17 7H7M17 7v10" />
         </svg>
       </a>
+      </div>
+      
     </div>
     );
 };
