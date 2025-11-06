@@ -19,9 +19,9 @@ const LanguageLevel = ({language, level}) => {
       ></div>
     ))}
   </div>
-  <div className="text-white text-md ml-2 flex justify-center items-center w-10">
+  {/* <div className="text-white text-md ml-2 flex justify-center items-center w-10">
     {Math.round((level/4)*100)}%
-        </div>
+        </div> */}
         </div>
     );
 };

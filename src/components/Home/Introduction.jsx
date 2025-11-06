@@ -7,9 +7,9 @@ const Introduction = () => {
 
 
   const languages = ["C / C++","Python", "Javascript","HTML", "CSS" , "MySQL"];
-  const frameworks= ["Django","Django REST Framework",  "React", "Tailwind CSS"];
+  const frameworks= ["Django","Django REST Framework",  "React", ];
   const version_management= ["Git", "Github"];
-  const other_technologies= ["Supabase", "npm" , "Vite" , "Render" , "Cloudinary" , "Netlify",];
+  const other_technologies= ["Supabase" , "Vite" , "Render" , "Cloudinary" , "Netlify", "Tailwind CSS"];
 
   return (
     <div className="container mx-auto px-4 py-16">
@@ -39,8 +39,8 @@ const Introduction = () => {
           </p>
         </div>
 
-        <Skills heading='Languages' tags={languages}/>
-        <Skills heading='Main Frameworks / Libraries' tags={frameworks}/>
+        <Skills heading="Languages I'm fimiliar with " tags={languages}/>
+        <Skills heading='Main Frameworks / Libraries I depend upon' tags={frameworks}/>
         <Skills heading='Version Manager' tags={version_management}/>
         <Skills heading='Other Technologies I used' tags={other_technologies}/>
 

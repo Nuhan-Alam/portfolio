@@ -41,7 +41,7 @@ const ProjectDetails = () => {
             {/* Project Header - Clickable */}
             <button
               onClick={() => toggleProject(project.id)}
-              className="cursor-pointer w-full px-6 py-4 bg-gray-800 hover:bg-white text-white hover:text-black transition-colors flex items-center justify-between text-left"
+              className="cursor-pointer w-full px-6 py-4 bg-gray-800 hover:bg-gray-700 text-white transition-colors flex items-center justify-between text-left"
             >
               <h3 className="text-2xl font-semibold ">{project.title}</h3>
               <svg
