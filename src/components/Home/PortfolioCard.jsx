@@ -1,7 +1,7 @@
-import { FaLinkedin } from "react-icons/fa";
-import { IoLogoYoutube } from "react-icons/io";
+import { FaLinkedinIn } from "react-icons/fa6";
 import { SiLeetcode } from "react-icons/si";
 import { FiGithub } from "react-icons/fi";
+import { AiOutlineYoutube } from "react-icons/ai";
 
 const PortfolioCard = () => {
     return (
@@ -58,7 +58,8 @@ const PortfolioCard = () => {
             rel="noopener noreferrer"
             className="w-10 h-10 text-white hover:text-black flex items-center justify-center border border-gray-300 rounded-full hover:bg-gray-100 transition-colors"
           >
-            <FaLinkedin className="w-5"/>
+            <FaLinkedinIn className="w-5" />
+
           </a>
         </li>
 
@@ -70,7 +71,8 @@ const PortfolioCard = () => {
             rel="noopener noreferrer"
             className="w-10 h-10 text-white hover:text-black flex items-center justify-center border border-gray-300 rounded-full hover:bg-gray-100 transition-colors"
           >
-            <IoLogoYoutube className="w-6" />
+            <AiOutlineYoutube className="w-5.5 h-6" />
+
           </a>
         </li>
 
