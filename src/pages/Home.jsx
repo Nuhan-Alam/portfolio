@@ -1,6 +1,6 @@
 import React from 'react';
 import HomeDetails from '../components/Home/HomeDetails';
-import PortfolioCard from '../components/Home/portfolioCard';
+import PortfolioCard from '../components/Home/PortfolioCard';
 const Home = () => {
     return (
         <div>
