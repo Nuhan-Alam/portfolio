@@ -33,12 +33,13 @@ const ContactForm = () => {
   return (
     <div className="container mx-auto px-4 py-16 ">
       <div className='max-w-4xl ml-auto'>
-                <div className="text-white mb-4 flex items-center gap-2">
+        <div>
+          <div className="text-white mb-4 flex items-center gap-2">
             <span class="relative flex size-3">
               <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-white opacity-75"></span>
               <span class="relative inline-flex size-3 rounded-full bg-white"></span>
             </span>
-            <span className="text-lg">Projects</span>
+            <span className="text-lg">Contact Me</span>
           </div>
 
       <div className="mb-12">
@@ -134,8 +135,8 @@ const ContactForm = () => {
           </div>
         </div>
       </div>
+        </div>
       </div>
-
     </div>
   );
 };

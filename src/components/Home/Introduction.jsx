@@ -24,7 +24,7 @@ const Introduction = () => {
             <span className="text-lg">Introduction</span>
           </div>
 
-          <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-8 text-white">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 text-white">
             <span className="block animate-slide-in-right">
               Full-Stack Developer
             </span>

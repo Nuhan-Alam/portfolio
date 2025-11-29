@@ -28,7 +28,7 @@ const PortfolioCard = () => {
           <img 
             src="https://res.cloudinary.com/dbgsrmvgi/image/upload/v1760707689/photo_2025-10-17_19-27-57_ktr5jy.jpg" 
             alt="Avatar"
-            className="w-auto object-cover rounded-lg"
+            className="w-auto p-2 object-cover rounded-lg"
           />
         </div>
         <img 
