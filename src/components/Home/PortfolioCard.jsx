@@ -24,17 +24,17 @@ const PortfolioCard = () => {
 
       {/* Avatar Section */}
       <div className=" mb-3 relative">
-        <div className="w-auto relative mb-4">
+        <div className="w-auto relative mb-4 ">
           <img 
             src="https://res.cloudinary.com/dbgsrmvgi/image/upload/v1760707689/photo_2025-10-17_19-27-57_ktr5jy.jpg" 
             alt="Avatar"
-            className="w-auto p-2 object-cover rounded-lg"
+            className="w-auto p-2 object-cover rounded-3xl"
           />
         </div>
         <img 
           src="https://res.cloudinary.com/dbgsrmvgi/image/upload/v1761269022/sign_rckpi0.png" 
           alt="Signature"
-          className="absolute bottom-0 right-17 w-36 h-auto"
+          className="absolute bottom-0 left-1/2 -translate-x-1/2 w-36 h-auto"
         />
       </div>
       

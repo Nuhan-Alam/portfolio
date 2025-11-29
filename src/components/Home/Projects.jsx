@@ -4,7 +4,7 @@ import ProjectDetails from './ProjectDetails';
 
 const Projects = () => {
     return (
-        <div className="container mx-auto px-4 py-16">
+        <div className="container mx-auto px-4 py-16 min-h-screen">
       <div className="max-w-4xl ml-auto">
         {/* Main Title Section */}
         <div className="mb-12">

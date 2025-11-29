@@ -19,7 +19,7 @@ const ProjectDetails = () => {
       title: "Event Management Website",
       description: "An event management website made fully with django.",
       tech: ["Django", "Tailwind CSS"],
-      live_link: "https://event-management-1ea7.onrender.com/",
+      live_link: "https://whatstoday-flax.vercel.app/intro/",
       github_repo: "https://github.com/Nuhan-Alam/event_management_project",
 
     },
